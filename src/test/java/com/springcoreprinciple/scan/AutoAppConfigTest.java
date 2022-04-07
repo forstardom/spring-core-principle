@@ -8,6 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import static org.assertj.core.api.Assertions.*;
 
 public class AutoAppConfigTest {
+
     @Test
     void basicScan() {
         ApplicationContext ac = new
